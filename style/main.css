@@ -66,7 +66,7 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.botao{
+.botao {
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
@@ -78,6 +78,7 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+
 
 .botao:hover{
     background-color: white;
@@ -100,8 +101,21 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    
+
 }
 
 .carrosel-cursos{
     margin-top: 5px;
 }
+
+
+.box-curso:hover{
+    
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+
+}
+

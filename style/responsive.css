@@ -6,11 +6,15 @@
     .botao{
         margin-top: 5px;
         width: 300px;
+        
     }
 }
 
 @media screen and (min-width: 1000px){
     .descricao{
         width: 50%;
+    }
+    .botao{
+        margin-bottom: 100px;
     }
 }
