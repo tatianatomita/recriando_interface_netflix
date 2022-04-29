@@ -37,14 +37,14 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #fff;
+    color: #fff !important;
 }
 
 /*CURSO PRINCIPAL*/
 
 .curso-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/teste_capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/teste_capa.jpg');
 
     height: 400px;
     background-size: cover;
